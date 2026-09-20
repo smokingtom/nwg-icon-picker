@@ -12,13 +12,15 @@ name. You can also open a file from the search result in GIMP or Inkscape - if i
 
 <img src="https://github.com/nwg-piotr/nwg-icon-picker/assets/20579136/0fae642c-0c78-4a67-b42f-949a30de5710" width=640 alt="Screenshot"><br>
 
+## Why this fork?
+
+This is a small personal fork of `nwg-icon-picker`, created for a project of mine. This Icon Chooser had what I was looking for, I just added a few things,
+those being a Cancel Button which closes the chooser aswell as a "Choose" Button which prints the chosen  icon's path to stdout.
+The original project and its author remain credited below, and this fork retains the original MIT license.
+
+
 ## Installation
-
-Find a package in your Linux distribution repositories, if possible.
-
-[![Packaging status](https://repology.org/badge/vertical-allrepos/nwg-icon-picker.svg)](https://repology.org/project/nwg-icon-picker/versions)
-
-Otherwise, you may install manually:
+See dependencies
 
 ### Dependencies
 
@@ -28,3 +30,4 @@ Otherwise, you may install manually:
 - python-setuptools (make)
 
 Clone this repository, and execute the `install.sh` script.
+
